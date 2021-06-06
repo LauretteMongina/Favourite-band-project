@@ -1,0 +1,41 @@
+*{margin: 10px;padding: 0px;font-family: century gothic;}
+.header{min-height: 150vh;width:100%;background-image: url(train.jpg);
+background-size: cover;background-position: center;position: relative;}
+.row{margin-top: 5%;
+display:flex;
+justify-content: space between
+}
+.row{background-color: black;}
+.members{background-color: black;}
+.members h2{color: white;
+text-align: center;
+font-size: xx-large;}
+.members-col{flex-basis: 31%;border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;}
+ .members-col{background-color: red;}
+ h3{text-align: center;
+font-weight: 600;margin: 10px 0;}
+h2{text-align: center;font-weight: 600;}
+.members-col img{width: 100%;}
+/*-----FAVORITE SONGS-----*/
+.favorite{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.row li{color: white;}
+.favorite-col{background-color:brown;
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position:relative;
+  overflow:hidden
+}
+.favorite-col img{width: 50%;}
+h2{text-align: left;}
+.favorite-col{box-sizing: border-box;
+border-radius: 10px;
+padding: 20px;}
