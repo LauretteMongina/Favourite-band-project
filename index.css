@@ -1,6 +1,7 @@
 *{margin: 10px;padding: 0px;font-family: century gothic;}
 .header{min-height: 150vh;width:100%;background-image: url(train.jpg);overflow: auto;
 background-size: cover;background-position: center;position: relative;}
+.main{overflow: scroll;}
 .row{margin-top: 5%;
 display:flex;
 justify-content: space between
